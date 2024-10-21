@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingAPI", "BookingSystemAPI\BookingAPI.csproj", "{2FB26CE1-4723-4B23-8FF6-0739BC24F53B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BookingClient", "BookingClient\", "{9CF442F0-07A2-4FBF-AC0D-3DD2A727A640}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62369"
+		Debug.AspNetCompiler.PhysicalPath = "BookingClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62369\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62369"
+		Release.AspNetCompiler.PhysicalPath = "BookingClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62369\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62369"
+		SlnRelativePath = "BookingClient\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FB26CE1-4723-4B23-8FF6-0739BC24F53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB26CE1-4723-4B23-8FF6-0739BC24F53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB26CE1-4723-4B23-8FF6-0739BC24F53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB26CE1-4723-4B23-8FF6-0739BC24F53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF442F0-07A2-4FBF-AC0D-3DD2A727A640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF442F0-07A2-4FBF-AC0D-3DD2A727A640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF442F0-07A2-4FBF-AC0D-3DD2A727A640}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF442F0-07A2-4FBF-AC0D-3DD2A727A640}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25A61BA4-039E-436E-A958-11FB85A7A4A5}
+	EndGlobalSection
+EndGlobal
